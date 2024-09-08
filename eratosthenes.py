@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 
-# Optimized sieve of Eratosthenes function with memoization
 def sieve_of_eratosthenes(n):
     prime = [True] * (n + 1)
     p = 2
